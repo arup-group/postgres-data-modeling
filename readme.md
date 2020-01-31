@@ -19,9 +19,13 @@ Dimension Tables
 
 ## Files
 create_tables.py - Drops and creates tables in the schema from scratch. Run this file to reset the tables before each time the ETL script is run.
+
 etl.ipynb - Reads and processes a single file from song_data and log_data and loads the data into the tables. This notebook contains detailed instructions on the ETL process for each of the tables.
+
 etl.py - Reads and processes all files from song_data and log_data and loads them into the tables.
+
 sql_queries.py - Contains all the sql queries for ETL, and is imported into the last three files above.
+
 test.ipynb - Displays the first few rows of each table for testing purposes.
 
 ## Usage
