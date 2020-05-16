@@ -1,6 +1,6 @@
-# Sparkify song database
+# PostgreSQL song database
 
-The purpose of this database is to store song, artist and user log records for a startup called Sparkify that provides music streaming services. Data is first extracted from raw JSON files and subsequently transformed and loaded into a PostgreSQL database. The database is designed with the intent of enabling and facilitating data analytics for exploring user activity and behavior.
+The purpose of this database is to store song, artist and user log records for a startup that provides music streaming services. Data is first extracted from raw JSON files and subsequently transformed and loaded into a PostgreSQL database. The database is designed with the intent of enabling and facilitating data analytics for exploring user activity and behavior.
 
 ## Schema
 The design of the database follows a star schema in order to optimize queries for data analysis. This includes the following tables and their respective attributes:
